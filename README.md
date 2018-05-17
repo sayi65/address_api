@@ -1,6 +1,11 @@
 # address_api
 _日本住所のAPI_
 
+Django REST Framework + Scrapy
+
+１、スクレイピングで郵便データを取得してDB保存
+２、日本郵便番号のAPI
+
 Apache設定
 ```sh
 WSGIScriptAlias / /var/www/html/address_api/django_api/wsgi.py
